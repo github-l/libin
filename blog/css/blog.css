@@ -1,0 +1,151 @@
+body div {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+}
+img {
+	border: 0 none;
+}
+/* 背景图合并 */
+.content {
+	width: 948px;
+	height:1352px;
+	margin: 0 auto;
+}
+.c_left {
+	width: 691px;
+	float: left; 
+}
+.musicD {
+	float: left;
+}
+.video,.ly {
+	float: right;	
+}
+.music {
+	float: right;
+	margin-right: 11px;
+}
+.pic {
+	float: right;
+}
+.company {
+	float: left;
+}
+.notes {
+	float: right;
+}
+.cal {
+	float: left;
+}
+.c_right {
+	width: 250px;	
+	float: right;
+}
+.hd-t {
+	background: url(../images/bg_mod_t.gif) 0 -44px repeat-x;
+}
+.hd-l {
+	background: url(../images/bg_mod_t.gif) 0 0 no-repeat;
+}
+.hd-r {
+	height: 44px;
+	background: url(../images/bg_mod_t.gif) right -88px no-repeat;
+}
+.f-t {
+	background: url(../images/bg_mod_f.gif) 0 -25px repeat-x;
+}
+.f-l {
+	background: url(../images/bg_mod_f.gif) 0 0 no-repeat;
+}
+.f-r {
+	height: 25px;
+	background: url(../images/bg_mod_f.gif) right -50px no-repeat;
+}
+.hd-t img {
+	margin-left: 13px;
+	margin-top: 10px;
+	float: left;
+}
+.hd-t strong {
+	margin-left: 6px;
+	margin-top: 16px;
+	color: #b61f26;	
+	float: left;
+	line-height: 14px;
+	height: 14px;
+}
+.hd-t a {
+	margin-top: 16px;
+	margin-right: 20px;
+	color: #b61f26;
+	float: right;
+	font-weight: bold;
+	text-decoration: none;
+}
+.musicD .hd-t a,.video .hd-t a {
+	visibility: hidden;
+}
+.music .hd-t a,.company .hd-t a,.cal .hd-t a {
+	text-decoration: underline;
+}
+.musicD,.music,.company,.cal {
+	width: 227px;
+	margin-bottom: 13px;
+}
+.video,.ly,.pic,.notes {
+	width: 453px;
+	margin-bottom: 13px;
+}
+.record,.message,.friend,.idol {
+	width: 227px;	
+}
+.musicD-c,.video-c,.ly-c,.music-c,.pic-c,.company-c,.notes-c,.cal-c,.record-c,.mes-c,.fri-c,.idol-c {
+	background-color: #ffd3a6;
+	float: left;
+}
+.musicD .f-t,.music .f-t,.company .f-t,.cal .f-t {
+	width: 227px;
+	float: left;
+}
+/*  音乐达人  */
+.musicD-c img {
+	margin-top: 9px;
+	margin-left: 14px;
+}
+.musicD-c a {
+	width: 66px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	color: black;
+	text-decoration: none;
+	background-image: url(../images/Mbtn.jpg);
+	float: left;
+}
+.musicD-c .md-c-a1,.musicD-c .md-c-a4 {	
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.musicD-c .md-c-a3,.musicD-c .md-c-a6 {
+	float: right;
+	margin-right: 8px;
+	margin-left: 6px;
+}
+.musicD-c .md-c-a1,.musicD-c .md-c-a2,.musicD-c .md-c-a3 {
+	margin-top: 8px;
+	margin-bottom: 6px;
+}
+.musicD-c .md-c-a4,.musicD-c .md-c-a5,.musicD-c .md-c-a6 {
+	margin-bottom: 10px;
+}
+.musicD-c a:hover {
+	color: #b41f25;
+	background-image: url(../images/Mbtn1.jpg);
+}
+/*  视频  */
